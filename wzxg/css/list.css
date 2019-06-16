@@ -1,0 +1,70 @@
+
+/*顶部公用样式*/
+.container{	width: 7.5rem;height:100%;margin: 0 auto;}
+.top_box{height: 0.96rem;line-height: 0.96rem;background-color: #f9f9fb;text-align: center;}
+.top_box div{position: absolute;margin-left: 0.29rem;margin-top: 0.31rem;width:0.27rem ;height:0.34rem ;cursor:pointer;background: url(../img/l.png) no-repeat bottom;background-size: 100%;}
+.top_box h3{color: #707272;font-size: 0.3rem;}
+
+/*辰山花历样式*/
+.search_ipt{background: url(../img/bg1.png) no-repeat ;background-size: 100%;padding-top: 1.2rem;padding-top: 0.73rem;}
+.search_ipt .month_ipt{text-align: center;}
+.search_ipt .month_ipt select{width: 3.76rem;height: 0.67rem;border: 0.05rem solid #9eb46a;border-radius: 0.1rem;padding-left: 1rem;background-color: #fff;font-size: 0.3rem;}
+.search_ipt .month_ipt span {position: absolute;width: 0.88rem;height: 0.57rem;margin-left: 2.8rem;margin-top: 0.05rem;border-left: 0.02rem solid #c9caca;background: url(../img/select.png) no-repeat center;background-color: #fff;background-size: 0.33rem 0.24rem;}
+.search_ipt .searchBox_ipt{position: relative;padding: 0.3rem 0.28rem 0rem 0.28rem;}
+.search_ipt .searchBox_ipt input{width: 6.95rem;height: 0.7rem;color:#fff;background-color: #809d3c;padding-left: 1.16rem;font-size: 0.3rem;}
+.search_ipt .searchBox_ipt a{position: absolute;margin-top: 0.24rem;margin-left: 0.78rem;width: 0.25rem;height: 0.25rem;background: url(../img/search.jpg) no-repeat ;background-size: 100%;}
+.variety{padding: 0 0.29rem 0 0.29rem ;}
+.variety li{float: left;position: relative;width: 3.42rem;height: 3.96rem;padding: 0.44rem 0.47rem 0.4rem 0.47rem;border-bottom: 0.04rem solid #809d3c;}
+.variety li:nth-child(2n+1){border-right: 0.04rem solid #809d3c;}
+.variety li:nth-of-type(5),
+.variety li:nth-of-type(6){border-bottom: none;}
+.variety li img{width: 2.5rem;height: 2.55rem;}
+.variety li p{text-align: center;margin-top: 0.2rem;font-size: 0.25rem;color: #323232;}
+
+/*详情样式*/
+
+.details_box{height: 0.8rem;}
+.product{height: 5.56rem;border-top:0.01rem solid #cdfcc1;border-bottom:0.01rem solid #cdfcc1;padding: 0.34rem 0.25rem 0.52rem 0.25rem;}
+.product img{display: block;width: 7rem;height: 4.7rem;}
+.describe{position: relative;padding: 0.95rem 0.64rem 0.8rem 0.64rem;background: url(../img/xqbg.png) no-repeat bottom;background-size: 100%;}
+.describe p{font-size: 0.3rem;color: #323232;margin-bottom: 0.44rem;line-height: }
+.describe div {position: absolute;top:0;right: 0;margin-right: 0.6rem;margin-top: -0.03rem;width: 0.63rem;height: 2.87rem;font-size: 0.3rem;color: #f8fafd;background-color: #819f5f;padding-top: 0.8rem;padding-right: 0.1rem;writing-mode:tb-rl;}
+
+
+/*我的报名列表样式*/
+.container_box{position:relative;}
+.apply{position: absolute;right: 0;top: 0;margin-top: 0.6rem;margin-right: 0.34rem;font-size: 0.3rem;font-weight: 700;color:#385a01;}
+.details_box{position: absolute;margin-top: 1.23rem;}
+.details_box li{height: auto;width: 7.5rem;background-color:#eefbfd;margin-bottom: 0.28rem;padding: 0.29rem 0.47rem 0.2rem 0.47rem;}
+.details_box li div:nth-of-type(1){width: 6.56rem;height: 2.88rem;margin-bottom: 0.18rem;}
+.details_box li div img{width: 6.56rem;height: 2.88rem;}
+.details_box li div:nth-of-type(2){font-size: 0.28rem;color: #323232;}
+.details_box li div:nth-of-type(3){font-size: 0.22rem;color: #acaead;}
+
+/*我要报名样式*/
+
+.container_bmbox{background-color: #f8f8f8;padding-top:0.39rem;height:100%; }
+.option_box{background-color: #fff;height: 1.07rem;line-height: 1.07rem;margin-bottom: 0.35rem;}
+/*.option_box ul{padding: 0 0.5rem;}*/
+.option_box li{;width: 33.3%;float: left;}
+.option_details{background-color: #f8f8f8;}
+.option_box li span{display: block;height: 1.07rem;width: 1.51rem;color: #666;text-align: center;margin-left: 0.48rem;font-size: 0.3rem;}
+.option_details ul{padding: 0rem 0.3rem 1.2rem 0.3rem;}
+.option_details ul li{width: 6.8rem;border-radius: 0.1rem;border: 0.01rem solid #75983e;margin-bottom: 0.22rem;padding: 0.34rem 0.3rem;}
+.option_details ul li p{margin-top: 0.05rem;font-size: 0.3rem;color: #505050;}
+.option_details ul li p i{padding: 0 0.29rem;}
+.high{color: #809d3c !important;border-radius: 0.04rem;border-bottom: 0.06rem solid #3c7c4a;}
+.cont{background-color: red;}
+ .container_bmbox iframe{background-color: #f8f8f8; }
+/*支付页面样式*/
+
+.wechat{position: relative;}
+.wechat .wcimg{position: absolute;left: 50%;top: 0;margin-left: -1rem;margin-top: 2.7rem;width: 2rem;height: 1.64rem;}
+.wechat .time{position: absolute;left: 50%;margin-left: -2.5rem;width:5rem;margin-top: 4.4rem;height: 3.6rem; }
+.wechat div{position: absolute;left: 50%;margin-left: -2.5rem;width:5rem;margin-top: 7.4rem;text-align: center;font-size: 0.38rem;color: #42b035;}
+
+.failure{position: fixed;width: 6.5rem;height: 3.64rem;background-color: #fff;left: 50%;margin-left: -3.25rem;top: 50%;margin-top: -1.82rem;text-align: center;border:0.05rem solid #07af12;}
+.failure div{margin-top: 0.86rem;font-size: 0.38rem;color: #42b035;}
+.failure .two{display: block;width: 4.67rem;height: 0.77rem;line-height: 0.77rem;background-color:#07af12;margin:0 auto;margin-top:0.65rem;font-size: 0.38rem;color: #fdfefd;}
+.none{display: none;}
+.block{display: block;}
